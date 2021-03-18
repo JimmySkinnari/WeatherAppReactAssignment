@@ -2,10 +2,17 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    background-color: #D0CDD7;
+  
+    
+  }
+  p{
+    background-color: #ACB0BD;
   }
   
   header {
     height: 200px;
+    font-family: 'Abril Fatface', cursive;
   }
   .center {
     display: flex;
@@ -17,12 +24,13 @@
     height: 100vh;
     display: flex;
     flex-direction: column;
+   
   }
   
   footer {
     margin-top: 1rem;
     padding: 1rem;
-    background-color: rgb(235, 195, 64);
+    background-color: #ACB0BD;
     position: fixed;
     bottom: 0;
     left: 0;
@@ -30,16 +38,50 @@
   }
 
   header{
-      background-color: beige;
+      background-color: #ACB0BD;
+      font-size: 50px;
+      font-weight: bold;
+      font-family: 'Abril Fatface', cursive;
+      letter-spacing: 3px;
   }
 
   section{
       margin-top: 5rem;
       background-color: gray;
       height: 10rem;
+   
+      
   }
 
   button{
       margin: 5px;
   }
-  
+
+  .degree{
+    font-weight: bold;
+  }
+
+  .weather{
+    background-color: #D0CDD7;
+
+    margin: 20px;
+    margin-left: 20rem;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .weather p{
+    background-color: #D0CDD7;
+    font-family: 'Montserrat', sans-serif;
+  }
+  form{
+    background-color: #D0CDD7;
+  }
+
+  .TodayForecast{
+    background-color: #ACB0BD;
+  }
+
+  .TodayForecast p{
+    background-color: #ACB0BD;
+  }
+
