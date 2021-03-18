@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    height: 200px;
+  }
+  .center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .App {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  footer {
+    margin-top: 1rem;
+    padding: 1rem;
+    background-color: rgb(235, 195, 64);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
+
+  header{
+      background-color: beige;
+  }
+
+  section{
+      margin-top: 5rem;
+      background-color: gray;
+      height: 10rem;
+  }
+
+  button{
+      margin: 5px;
+  }
+  

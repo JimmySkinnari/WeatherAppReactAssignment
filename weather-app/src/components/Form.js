@@ -15,10 +15,10 @@ const Form = ({setInputText, inputText}) => {
 
     
     return(
-        <form>
-            <input value={inputText} onChange={inputTextHandler} type ="text" className="todo-input"></input>
+        <form className="center">
+            <input value={inputText} onChange={inputTextHandler} type ="text" className="todo-input" placeholder="Search City"></input>
             <button className="todo-button" type="submit" onClick={sumbitTodoHandler}>
-                <i className="fas fa-plus-square"></i>
+                Search
             </button>
         </form>
     );
