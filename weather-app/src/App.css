@@ -4,6 +4,7 @@
     padding: 0;
     background-color: #9fb8ad;
     color: #3F403F;
+    box-shadow: unset;
   
     
   }
@@ -98,6 +99,10 @@
     color: #9fb8ad;
     background-color:  #3f403f;
     border-style:ridge;
+
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
     
   }
 
