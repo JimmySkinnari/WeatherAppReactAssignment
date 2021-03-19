@@ -6,7 +6,7 @@ const Header = () => {
       <header className='center header'>
         <div className="logoContainer">
         <p className="logo"> <img src={ReactLogo} alt = "React Logo" /></p>
-        <p className="logoText">Weather App</p>
+        <p className="logoText">WEATHER</p>
         </div>
           
       </header>
