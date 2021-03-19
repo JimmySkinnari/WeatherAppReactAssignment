@@ -16,7 +16,7 @@ function GetDay(date){
 
 const LongForecast = ({longResult}) => {
     return (
-        <div className="weather">    
+        <div className="longweather">    
 
         <br></br>
         <p>Tomorrow: Max: <label className="degree">{longResult.list[8].main.temp_max}</label> °C - Min: <label className="degree">{longResult.list[8].main.temp_min}</label> °C</p>
