@@ -54,6 +54,8 @@
 
   button{
       margin: 5px;
+      border: none;
+      box-shadow: none;
   }
 
   .degree{
@@ -61,11 +63,12 @@
   }
 
   .weather{
-    background-color: #D0CDD7;
+    background-color: #9fb8ad;
 
     margin: 20px;
     margin-left: 20rem;
     font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
   }
 
   .weather p{
@@ -75,7 +78,24 @@
   .header{
     display:block;
     margin:0px auto;
-    padding: 40px;
+    padding: 80px;
+  }
+
+  .longweather{
+    background-color: black;
+    width: 350px;
+    border-radius: 7px;
+  }
+
+  .longweather,
+  .longweather p,
+  .longweather label{
+    background-color: #b5d6c8;
+    
+  }
+
+  .longweather{
+    padding: 6px;
   }
 
 
@@ -116,6 +136,12 @@
 
   }
 
+  .small{
+    margin-top: 0px;
+    padding: 0px;
+    font-size: 10px;
+    margin-left: 220px;
+  }
   .showLongForecast{
 
     margin-top:  20px;
@@ -138,4 +164,8 @@
 
   img{
     width: 60px;
+  }
+
+  svg{
+    background-color: #9fb8ad;
   }
