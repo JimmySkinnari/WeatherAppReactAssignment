@@ -12,8 +12,9 @@ const TodayForecast = ({todayResult, onShowLongForecast}) => {
         <p> Min temp:  <label className="degree">{todayResult.main.temp_min} °C</label></p>
         <br></br>
         <button className="btn showLongForecast" onClick={onShowLongForecast}>Show long forecast</button>
+        
         </div>
-    )
+    ) 
 }
 
 export default TodayForecast

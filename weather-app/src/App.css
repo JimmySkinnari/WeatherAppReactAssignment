@@ -2,16 +2,14 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: #9fb8ad;
     color: #3F403F;
     box-shadow: unset;
-  
-    
   }
 
   html{
     margin: -10px;
     padding: 0;
+    background-color: #9fb8ad;
   }
 
   
@@ -22,9 +20,11 @@
     letter-spacing: 3px;
     display:inline-block;
     text-align:center;
-  
-  
+    background-color: #9fb8ad;
+
   }
+
+
   .center {
     display: flex;
     align-items: center;
@@ -35,11 +35,8 @@
     height: 100vh;
     display: flex;
     flex-direction: column;
-   
   }
 
-
-  
   footer {
     margin-top: 1rem;
     padding: 1rem;
@@ -64,7 +61,6 @@
 
   .weather{
     background-color: #9fb8ad;
-
     margin: 20px;
     margin-left: 20rem;
     font-family: 'Montserrat', sans-serif;
@@ -82,7 +78,6 @@
   }
 
   .longweather{
-    background-color: black;
     width: 350px;
     border-radius: 7px;
   }
@@ -97,10 +92,6 @@
   .longweather{
     padding: 6px;
   }
-
-
-
- 
 
   .city{
     text-decoration:underline;
@@ -126,14 +117,9 @@
     
   }
 
-  .btn:hover{
-
-    
+  .btn:hover{ 
     color: #b8d4c7;
     background-color: #424742;
- 
-
-
   }
 
   .small{
@@ -145,8 +131,7 @@
   .showLongForecast{
 
     margin-top:  20px;
-    margin-left: 0px;
-    
+    margin-left: 0px;  
   }
 
   input{
@@ -155,7 +140,6 @@
     border-radius: 3.5px;
     border-width: 1px;
     border-color: #E6E8E6 ;
-    
   }
 
   .footerText{
@@ -166,6 +150,8 @@
     width: 60px;
   }
 
-  svg{
-    background-color: #9fb8ad;
-  }
+ icon{
+  background-color: #b5d6c8;
+ }
+
+

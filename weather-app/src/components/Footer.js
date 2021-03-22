@@ -5,6 +5,7 @@ const Footer = () => {
         <footer className="center">
             <p className="footerText">Jimmy Skinnari</p>
         </footer>
+        
     );
 };
 

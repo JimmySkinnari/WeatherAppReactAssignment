@@ -1,5 +1,5 @@
 
-const Form = ({search, setInputText, inputText, setGetWeather}) => {
+const Search = ({search, setInputText, inputText, setGetWeather}) => {
 
     // here i can write javascript code and functions
     const inputTextHandler = (e) => {
@@ -22,10 +22,12 @@ const Form = ({search, setInputText, inputText, setGetWeather}) => {
         <form className="center" onSubmit={onSearch}>
             <input  value={inputText} 
                     onChange={inputTextHandler} 
-                    type ="text" className="todo-input" 
-                    placeholder="Search City">
+                    type ="text" 
+                    className="todo-input" 
+                    placeholder="Search City"
+             />
 
-            </input>
+            
             <button className="todo-button btn btn-dark" type="submit">
                 Search
             </button>
@@ -33,4 +35,4 @@ const Form = ({search, setInputText, inputText, setGetWeather}) => {
     );
 };
 
-export default Form;
+export default Search;

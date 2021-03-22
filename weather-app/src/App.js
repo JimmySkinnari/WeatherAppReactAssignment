@@ -5,7 +5,7 @@ import React, { useState, useEffect } from "react";
 
 import Header from "./components/ui/Header";
 import Footer from "./components/Footer";
-import Form from "./components/Form";
+import Search from "./components/Search";
 import WeatherList from "./components/weather/WeatherList"
 import axios from 'axios';
 
@@ -52,18 +52,16 @@ const App = () => {
 
   }, [getWeather])
 
-
-
   return (
     <div className="container">
     <Header />
-    <Form search={search} inputText={inputText} setInputText={setInputText} setGetWeather={setGetWeather} />
+    <Search search={search} inputText={inputText} setInputText={setInputText} setGetWeather={setGetWeather} />
 
     <WeatherList isLoading={isLoading}
-                    results={results} 
-                    longResult ={longResults} 
-                    showLongForecast={showLongForecast}
-                    onShowLongForecast={() => setShowLongForecast(!showLongForecast)}  />
+                 results={results} 
+                 longResult ={longResults} 
+                 showLongForecast={showLongForecast}
+                 onShowLongForecast={() => setShowLongForecast(!showLongForecast)}  />
     <Footer />
     </div>
   );
