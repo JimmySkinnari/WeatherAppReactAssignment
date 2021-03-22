@@ -10,11 +10,9 @@ const WeatherDisplay = ({isLoading, results, longResult, showLongForecast, onSho
                        onShowLongForecast={onShowLongForecast} 
                        />
 
+        
         {showLongForecast && <LongForecast longResult ={longResult} />}
         </div>
     )
-
-
-
 }
 export default WeatherDisplay

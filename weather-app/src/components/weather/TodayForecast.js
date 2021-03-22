@@ -1,9 +1,7 @@
 import React from 'react'
 
 const TodayForecast = ({todayResult, onShowLongForecast}) => {
-    return (
-      
-            
+    return (     
         <div className="TodayForecast">
         <h1 className="city">{todayResult.name}</h1>
         <br></br>
@@ -15,9 +13,6 @@ const TodayForecast = ({todayResult, onShowLongForecast}) => {
         <br></br>
         <button className="btn showLongForecast" onClick={onShowLongForecast}>Show long forecast</button>
         </div>
-
-       
-    
     )
 }
 

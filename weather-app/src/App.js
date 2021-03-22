@@ -6,7 +6,7 @@ import React, { useState, useEffect } from "react";
 import Header from "./components/ui/Header";
 import Footer from "./components/Footer";
 import Form from "./components/Form";
-import WeatherDisplay from "./components/weather/WeatherDisplay"
+import WeatherList from "./components/weather/WeatherList"
 import axios from 'axios';
 
 
@@ -59,7 +59,7 @@ const App = () => {
     <Header />
     <Form search={search} inputText={inputText} setInputText={setInputText} setGetWeather={setGetWeather} />
 
-    <WeatherDisplay isLoading={isLoading}
+    <WeatherList isLoading={isLoading}
                     results={results} 
                     longResult ={longResults} 
                     showLongForecast={showLongForecast}

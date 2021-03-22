@@ -8,7 +8,6 @@ const Header = () => {
         <p className="logo"> <img src={ReactLogo} alt = "React Logo" /></p>
         <p className="logoText">WEATHER</p>
         </div>
-          
       </header>
     )
 }
