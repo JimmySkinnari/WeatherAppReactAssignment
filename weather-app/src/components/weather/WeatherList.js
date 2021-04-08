@@ -8,9 +8,7 @@ const WeatherDisplay = ({isLoading, results, longResult, showLongForecast, onSho
         <div className="weather">
         <TodayForecast todayResult={results}
                        onShowLongForecast={onShowLongForecast} 
-                       />
-
-        
+                       />        
         {showLongForecast && <LongForecast longResult ={longResult} />}
         </div>
     )
