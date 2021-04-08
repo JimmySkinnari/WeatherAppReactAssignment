@@ -1,6 +1,5 @@
 import React from 'react'
 
-
 // icon imports
 import {
         TiWeatherCloudy,
@@ -15,21 +14,16 @@ import {
         TiWeatherWindy 
        } from 'react-icons/ti';
 
-
-
 function GetDay(date){
 
     let days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
     let d = new Date(date);
     let dayName = days[d.getDay()];
-
+        
     return dayName;
-
-
 }
 
 function GetIcon(weather){
-
     switch(weather) {
         case "Clouds":
           return <TiWeatherCloudy size="20" />
@@ -40,11 +34,9 @@ function GetIcon(weather){
           case "Rain":
             return <TiWeatherShower size="20"/>
         default:
-          // code block
       }
     return <TiWeatherSunny size="20"/>
 }
-
 
 const LongForecast = ({longResult}) => {
     return (
@@ -65,4 +57,3 @@ const LongForecast = ({longResult}) => {
 }
 
 export default LongForecast
-
