@@ -1,7 +1,6 @@
 
 const Search = ({search, setInputText, inputText, setGetWeather}) => {
 
-    // here i can write javascript code and functions
     const inputTextHandler = (e) => {
         setInputText(e.target.value);
     };
@@ -25,9 +24,7 @@ const Search = ({search, setInputText, inputText, setGetWeather}) => {
                     type ="text" 
                     className="todo-input" 
                     placeholder="Search City"
-             />
-
-            
+             />        
             <button className="todo-button btn btn-dark" type="submit">
                 Search
             </button>
